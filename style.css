@@ -1,0 +1,117 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+   font-family: "Times New Roman", Times, serif;
+}
+
+}
+
+body{
+   background-color: #aaaaaa;
+   }
+
+/* STYLE TEXT */
+
+h1 {
+  color: #006d8f;
+   font-weight: bold;
+   
+}
+
+/* STYLE IMAGES */
+#icon{
+   max-height: 50px;
+}
+
+#plastic{
+   height:500px;
+   margin: 5px;
+   border: 10px solid #333;
+}
+
+img{
+     border-radius: 8px solid #ddd;
+     padding: 5px;
+     height: 150px;
+    display: flex;
+    flex: 33.33%;
+     padding: 5px;
+   }
+
+/* STYLE NAV BAR */
+
+nav ul {
+   list-style-type: none;
+   margin:0;
+   padding:0;
+   overflow: hidden;
+   display:horizontal;
+   background-color: #333;
+}
+.left-picture{
+   float:left;
+   width:50%;
+}
+
+.right-picture{
+   float:right;
+   width:50%;
+}
+
+.pic1{
+   float:left;
+   width:33%;
+}
+
+.pic2{
+   display:inline-block;
+   width:33%;
+}
+
+.pic3{
+   float:right;
+   width:33%;
+}
+
+.nonprofits img{
+   max-width:250px;
+}
+
+#icon #title{
+   float:left;
+}
+
+
+#title{
+   text-align:left;
+   font-size: 50px;
+}
+
+nav li{
+   float:right;
+}
+
+nav li a {display: block;
+      color:#a8c6fe;
+      text-align: right;
+      padding:14px 30px 5px;
+      text-decoaration: none;
+     }
+
+nav li a:hover{
+   background-color: #232323;
+}
+
+.active {
+   background-color:  #4f7a28;
+}
+
+#fact-generator{
+   text-align: center;
+}
+   
+/* STYLE BUTTONS */
+#myButton{
+   font-size:18px;
+/* ADD MORE! */
